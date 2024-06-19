@@ -1,0 +1,26 @@
+<div class="backdrop" >
+    <div class="formdiv">
+      <form>
+        <p>
+          <label for="id">ID</label>
+          <input type="text" id="id" name="id" [(ngModel)]="displayCustomerData.id" disabled>
+        </p>
+        <p>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" [(ngModel)]="displayCustomerData.name">
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" [(ngModel)]="displayCustomerData.email">
+        </p>
+        <p>
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone" [(ngModel)]="displayCustomerData.phone">
+        </p>
+        <button type="button" (click)="onEditChange()">Edit</button>
+        <button style="background-color: red;" type="button" (click)="closeEdit()">cancel</button>
+
+      </form>
+    </div>
+  </div>
+  

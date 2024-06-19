@@ -1,0 +1,45 @@
+table{
+    border-radius: 20px;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 0 5px 5px black;
+
+}
+table thead {
+    background-color: rgb(129, 129, 129);
+    color: white;
+}
+
+table th, table td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: rgba(94, 94, 94, 0.1);
+}
+table,tr{
+    border-collapse: collapse;
+    
+    
+}
+
+button{
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(129, 129, 129);
+    width: 100px;
+}
+button:hover {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(168, 168, 168);
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
